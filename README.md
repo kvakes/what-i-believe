@@ -12,4 +12,4 @@ In the repository you'll find small utility build.sh, you just need to run it on
 
     $ ./build.sh
 
-I encourage windows users find a way how to compile ePub from sources in CLI.
+I encourage windows users to find a way how to compile ePub from sources in CLI.

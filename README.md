@@ -13,3 +13,7 @@ In the repository you'll find a build.sh utility, run it in UNIX environment.
     $ ./build.sh
 
 Windows users can use free utility called [ePubPack](http://sourceforge.net/projects/epubpack/).
+
+## Download ePub
+
+Download [What I Believe by Leo Tolstoy](https://github.com/Kvakes/what-i-believe/downloads).

@@ -1,22 +1,37 @@
-/* Typography */
 body {
 	font-family: "Bergamo STD", Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
 	font-size:1em;
 	line-height:1.4em;
 }
-h1, h2 {
-	font-family: "Myriad Pro", "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
-	font-size: 2em;
-}
-h2, p.separator {
+h1, h2, p.separator {
 	text-align: center;
 }
 p {
 	margin:0;
 }
 p:not(:nth-of-type(1)) {
-	text-indent:1.5em;
+	text-indent:1em;
 }
-p:nth-of-type(1):first-line {
-	font-size:1.2em;
+blockquote p {
+	text-indent: 0 !important;
+}
+.footnote {
+	border-top: 1px solid #999;
+	border-bottom: 1px solid #999;
+	padding: .85em 1.7em;
+}
+.footnote sup {
+	margin-left: -.85em;
+}
+.verse {
+	vertical-align: super;
+	color: #777;
+	font-size: .5em;
+	display: inline-block;
+	width: 3em;
+	margin-left: -3.5em;
+	text-align: right;
+}
+.nowrap {
+	white-space: nowrap;
 }

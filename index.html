@@ -31,5 +31,19 @@
 		<p>This project is <a href="https://github.com/Kvakes/what-i-believe">open-source</a>.</p>
 		<p>Typeset by <a href="http://kvakes.com">Kvakes</a>.</p>
 	</footer>
+	<script>
+	(function() {
+		window.b = document.getElementsByTagName('body')[0];
+		window.i = document.getElementById('leo');
+
+		var f = document.createElement('script'), s = document.createElement('script');
+		f.type = s.type = 'text/javascript';
+		f.src = 'http://kvakes.github.com/vera/js/flipper.js';
+		s.src = 'http://kvakes.github.com/vera/js/striker.js';
+
+		b.appendChild(f);
+		//b.appendChild(s);
+	}).call(this);
+	</script>
 </body>
 </html>
